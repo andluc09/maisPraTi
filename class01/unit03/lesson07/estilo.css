@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1e1e1e;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #ffffff;
+}
+
+form {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+table {
+    width: 100%;
+    border-spacing: 10px;
+}
+
+td {
+    padding: 5px;
+}
+
+input[type="text"].resultado {
+    width: calc(100% - 20px);
+    height: 63px;
+    border: none;
+    border-radius: 15px;
+    text-align: right;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color: #3b3b3b;
+    color: #ffffff;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+}
+
+input[type="button"].botao {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2em;
+    margin: 2px 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    background-color: #3b3b3b;
+    color: #ffffff;
+}
+
+input[type="button"].botao:hover {
+    background-color: #4b4b4b;
+}
+
+input[type="button"].botao:active {
+    background-color: #5b5b5b;
+}
