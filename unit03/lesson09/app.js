@@ -105,9 +105,9 @@ function registerTask() {
     }
 }
 
-function loadTasks(tasks = Array()) {
+function loadTasks(tasks) {
 
-    if(tasks.length === 0){
+    if(tasks === undefined){
         tasks = database.loadTasks()
     }
 
